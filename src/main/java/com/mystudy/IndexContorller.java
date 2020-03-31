@@ -10,4 +10,9 @@ package com.mystudy;
  * @Version: 1.0
  */
 public class IndexContorller {
+
+    public Object index(){
+        System.out.println("欢迎访问首页页面");
+        return "index";
+    }
 }
